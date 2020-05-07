@@ -1,0 +1,95 @@
+body{
+		padding:0;
+		margin:0;
+		background-color:#f4f4f4;
+		font-family:"Baloo Da 2";
+		}
+h1{
+		font-size:42px;
+		text-align:center;
+		color:#5900cc;
+		text-decoration:underline;
+		}
+h3{
+		padding:10px;
+		font-size:28px;
+		text-align:center;
+		color:#5900cc;
+		}
+.whole{
+		width:82%;
+		background-color:#aa00ff;
+		padding:20px;
+		margin:auto;
+		border-radius:5px;
+		}
+.what{
+		background-color:#dbdbdb;
+		padding:10px;
+		text-align:center;
+		font-size:20px;
+		border:3px double #aeaeae;
+		border-radius:5px;
+		color:#5900cc;
+		}
+textarea{
+		display: block;
+		margin:auto;
+		width:91%;
+		height:90px;
+		outline:none;
+		border-radius:5px;
+		border:3px double #dbdbdb;
+		padding:10px;
+		}
+.task{
+		width:82%;
+		background-color:#aa00ff;
+		padding:20px;
+		margin:2pc auto 0pc auto;
+		border-radius:5px;
+		colo:white;
+		}
+li{
+		text-align:center;
+		list-style-type:none;
+		background-color:#f4f4f4;
+		border:2px double #aeaeae;
+		}
+.your{
+		text-align:center;
+		font-size:22px;
+		}
+.flex, .edit{
+		display:flex;
+		justify-content:space-between;
+		}
+button{
+		padding:5px;
+		border-radius:5px;
+		outline:none;
+		}
+.appear{
+		width:0px;
+		height:0px;
+		overflow:hidden;
+		transition:height 1s ease;
+		}
+.edit{
+		width:93%;
+		margin:0pc auto 4pc auto;
+		}
+.your{
+		color:white;
+		}
+
+
+/* MEDIA QUERY SECTION BEGINS */
+@media(min-width:768px){
+.whole, .task{
+		width:35%;
+		}
+.edit{
+		width:40%;
+		}			
+	}
